@@ -1,0 +1,54 @@
+{
+  "trending_keywords": [
+    "RAG agent",
+    "retrieval-augmented generation",
+    "LangChain RAG tutorial",
+    "LlamaIndex RAG demo",
+    "vector database tutorial",
+    "Pinecone RAG",
+    "Weaviate RAG",
+    "Milvus demo",
+    "RAG vs fine-tuning",
+    "embedding models for RAG",
+    "reduce hallucinations RAG",
+    "deploy RAG agent",
+    "RAG agent architecture",
+    "open-source RAG",
+    "RAG pipeline 2025",
+    "LLM agent orchestration",
+    "cost optimization LLM",
+    "memory & context window",
+    "RAG for customer support",
+    "no-code RAG build",
+    "real-time retrieval",
+    "Supabase vector search",
+    "RAG production checklist",
+    "evaluate retrieval quality",
+    "tool-enabled agents"
+  ],
+  "competitor_titles": [
+    "Build a RAG Agent with LangChain in 20 Minutes (Step-by-Step)",
+    "Retrieval-Augmented Generation Tutorial — LlamaIndex + Pinecone Full Demo",
+    "From Zero to Production: RAG Agents with Weaviate and OpenAI",
+    "Open-Source RAG Agent Using Llama 2 and Milvus (Live Build)",
+    "How I Built a Support Bot with RAG — Supabase + Embeddings",
+    "RAG vs Fine-Tuning: Which Is Better? Live Demo & Benchmarks",
+    "Deploying a RAG Agent on Vercel + Docker — Full Guide"
+  ],
+  "hook_ideas": [
+    "I'll build a production-ready RAG agent from scratch and deploy it live in under 25 minutes — follow along.",
+    "Watch how this RAG pipeline stops hallucinations and gives accurate answers using only your docs.",
+    "Want a searchable AI that knows your data? I'll connect a vector DB, embeddings, and an agent in one demo.",
+    "No fine-tuning, no expensive retrains — learn how retrieval fixes LLM accuracy problems in real time.",
+    "See a cost-optimized RAG setup that cuts API spend while improving answer relevance.",
+    "I'll show a one-click demo: upload docs, index, and query — the whole RAG loop in action."
+  ],
+  "target_audience": "Developers, ML engineers, AI product builders, and technical founders who want hands-on guidance to build, evaluate, and deploy retrieval-augmented generation (RAG) agents using vector databases, embedding models, and agent orchestration frameworks.",
+  "content_pillars": [
+    "Core architecture: embeddings, vector DB, retriever, reranker, and LLM agent flow",
+    "Hands-on build: step-by-step code demo (LangChain/LlamaIndex) and local/hosted deployment",
+    "Tooling choices: vector DB comparisons (Pinecone, Weaviate, Milvus, Supabase) and embedding models",
+    "Best practices & production concerns: hallucination mitigation, cost tuning, latency, and evaluation"
+  ],
+  "seo_insights": "Use high-intent keywords (e.g., \"RAG agent\", \"LangChain RAG tutorial\", \"deploy RAG\") in the title and first 100 characters of the description, include timestamps and a link to a public GitHub repo for higher click-through and watch time. Add detailed video chapters, an auto-generated transcript, and tags for specific tech (Pinecone, LlamaIndex, LangChain) to capture search and suggested traffic; thumbnails with \"Build in 25m\" or \"Live RAG Demo\" tend to boost CTR."
+}

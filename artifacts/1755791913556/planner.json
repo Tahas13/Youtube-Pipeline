@@ -1,0 +1,38 @@
+{
+  "production_checklist": [
+    "Script (2–4 hrs): Draft full narration + code walkthrough with exact commands. Quality checkpoints: include 1–2 primary long-tail keywords in first sentence, mark exact timecodes for demos, write a 15-second cold open verbatim, and fact-check code snippets in a live environment.",
+    "Record — Screen & Camera (30–60 mins): Capture terminal, editor, and camera B-roll. Quality checkpoints: test mic levels (-12dB target), capture 60+ fps terminal if possible, do a dry run to hit the 15-second hook and the 30–60s preview, and save raw takes labeled by section.",
+    "Edit (3–6 hrs): Trim to target length (10–12 min recommended for technical deep dives), tighten pacing, insert jump-cuts and code highlights. Quality checkpoints: remove dead time, keep hook promise delivered by 0:45, add on-screen code snippets, captions, and 2–3 visual emphasis moments every 2–3 minutes (e.g., 'but here's the crazy part...'), and run A/V quality pass (sync, noise reduction, color correction).",
+    "Thumbnail & Title Variants (1–2 hrs): Create 2–3 thumbnail A/B options with clear face/tech icon + 3–5 word benefit. Quality checkpoints: 4:1 contrast ratio, readable at 256px wide, export high-quality PNGs and test legibility on mobile; prepare 2 title variants for A/B testing in first 48 hours.",
+    "Upload & Metadata (30–45 mins): Publish with optimized title, description (1.0–1.8% keyword density target), tags, chapters, pinned comment, and end screens. Quality checkpoints: include repo link in top description lines, add timestamps, attach transcript, enable cards/polls, schedule Premiere if doing live engagement.",
+    "Post-Publish Promotion & Monitoring (15–30 mins): Pin comment with code repo, tweet thread, and LinkedIn post. Quality checkpoints: enable analytics alerts for first-hour retention dropoffs, monitor comments for first 24 hrs, and prepare quick 1-min clip for Shorts if retention dips below target."
+  ],
+  "hook_outline": [
+    "Live-build urgency: \"Watch me assemble a production-ready RAG agent in under 12 minutes — by the end you'll have a working chatbot that references your docs. I’ll show the exact commands and a repo link — no fluff.\" (Promises a runnable outcome within 15s.)",
+    "Problem → fix tease: \"My chatbot used to hallucinate — then one config change cut errors in half. I’ll show the fix and the tests you can run in 5 minutes.\" (Creates curiosity gap and promises a concrete improvement immediately.)",
+    "One-line surprise: \"One line of prompt engineering turned my RAG answers from wrong to reliable — I’ll paste it and explain why it works in the next 30 seconds.\" (Curiosity + immediate value delivered fast.)",
+    "Avoid fatal mistake: \"Don’t deploy your RAG agent until you see this common vector DB pitfall — it cost me hours in production. Fix it with a 3-step checklist I’ll walk through now.\" (Promise of time-savings and error avoidance in the first 15s.)"
+  ],
+  "title_style_notes": [
+    "Place 1 primary long-tail keyword in the first 60 characters (examples: \"Build a RAG agent tutorial\", \"LangChain RAG agent example\") and keep titles ~60–70 characters for full display.",
+    "Use power words and emotional triggers: Fix, Instantly, Production-ready, Stop Hallucinations, Reliable. Combine with a time promise when applicable (e.g., \"in 12 Minutes\") to increase CTR.",
+    "A/B testing suggestions: Test Version A with platform names (\"LangChain + Pinecone\") vs Version B with outcome-based phrasing (\"Stop Hallucinations\"). Run two title variants for the first 48–72 hours and keep the winner.",
+    "Keep click intent clear (what viewer will get) + curiosity gap: mix benefit + specificity (\"End-to-End RAG Agent — LangChain, FAISS, and One-Line Prompt Fix\")."
+  ],
+  "content_structure": [
+    "00:00–00:15 Hook (problem/promise): Strong cold open that states the exact outcome (e.g., \"By 12:00 you’ll have a working RAG agent that answers from your PDFs with reproducible commands\"). Retention goal: immediately reduce bounce rate by promising concrete value.",
+    "00:15–00:45 Context / Setup (why this matters): Quick explanation of target audience, stack (LangChain/LlamaIndex + FAISS/Pinecone/Chroma), and what will be delivered. Include a 5–10s preview clip of the final demo to fulfill the promise and boost retention into minute 1.",
+    "00:45–03:30 Quick Demo & Proof (deliver on the hook): Run the smallest reproducible demo (load docs → build index → query). Retention cue at ~02:30: 'But here's the crazy part — the config that makes this accurate is...'. Keep this section fast, with timestamps and links to the repo in the pinned comment.",
+    "03:30–07:00 Deep Dive — Retrieval Pipeline & Prompting (payoff): Explain chunking, embeddings, retriever tuning, and the one-line prompt fix for hallucinations. Add a short A/B test example showing before/after outputs (visual diff) around 05:30 to re-capture attention.",
+    "07:00–10:30 Deployment & Scaling Best Practices (payoff + futureproof): Containerization, streaming responses, caching, monitoring, and common production pitfalls (vector DB limits). Insert an engagement hook every ~2–3 minutes: ask a quick question or poll ('Which DB do you use?') to drive comments and cards.",
+    "10:30–11:30 Recap (key takeaways) + Next Steps: Bullet-list recap of actionable items (commands, config values, tests to run).",
+    "11:30–12:00 Final 30s: Strong CTA + Next Video Tease: CTA to star the repo, subscribe, and watch the next deep-dive (e.g., 'Next: scaling to multi-node FAISS'). Use end-screen placement and a direct timestamp to the full repo/runbook."
+  ],
+  "engagement_tactics": [
+    "Time-based CTAs: At 00:45 and every 2–3 minutes say a short engagement prompt — e.g., 'If you want the repo, hit like — I’ll post it in the top comment', and pin that comment with the repo link and timestamps.",
+    "Interactive cards & polls: Add a poll card around 04:00 asking 'Which vector DB should we benchmark next?' and use the results to plan the follow-up video to increase return viewers.",
+    "Comment-driven homework: Ask viewers to run the demo with their dataset and post one-line results or screenshot — respond to top 10 comments in the first 24 hrs to boost algorithmic signals.",
+    "Chapters + jump-to-code links: Include clear chapters and time-linked code snippets in the pinned comment so viewers can jump to specific sections (reduces drop-off for mid-video skippers and increases total watch time via re-watches).",
+    "End-screen funneling: In the final 30s, call out a specific next-video with similar theme (e.g., 'Scaling RAG Agents') and use end screens + pinned comment to push a playlist of related tutorials to increase session watch time."
+  ]
+}

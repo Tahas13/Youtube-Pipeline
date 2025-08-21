@@ -1,0 +1,36 @@
+{
+  "production_checklist": [
+    "Script & Storyboard: Draft a tight script (intro hook, 3–5 main sections, CTA). Insert target keywords in the first 100 characters of the description and first 30 seconds of the video. Outline exact demo milestones (indexing, query, deploy) and timestamp markers for chapters.",
+    "Prep environment & assets: Prepare code repo, sample docs, embeddings, vector DB instance (Pinecone/Weaviate/Milvus/Supabase), API keys, Docker files, and a short dataset for demo. Verify reproducibility with a local dry-run and collect terminal recordings/snippets.",
+    "Record: Capture a short polished cold open (15–30s), full-screen code walkthroughs (use zooms on key lines), and a live demo build/deploy segment. Record short retake clips for tricky parts. Capture B-roll: architecture diagram, vector DB UI, latency/cost charts.",
+    "Edit: Trim to maintain pace, cut filler, show code highlights, zoom on important code, add overlay annotations (commands, env vars), insert animated architecture diagram at the start, and add on-screen callouts when demonstrating hallucination fixes. Include subtitles and chapter markers.",
+    "Thumbnail & Visuals: Create a high-contrast thumbnail featuring a bold time promise (e.g., \"Build in 25m\"), tech logos (LangChain/LlamaIndex/Pinecone), and an action image (terminal or flow diagram). Test 2 variations A/B for CTR.",
+    "Upload & SEO: Craft title using target keywords, write an SEO-first description (first 100 chars = hook + repo link), add timestamps/chapters, tags for each tech, pinned comment with repo + TL;DR, enable auto-generated transcript, choose optimal publish time, and schedule social shares."
+  ],
+  "hook_outline": [
+    "Live build promise: \"I’ll build a production-ready RAG agent and deploy it in under 25 minutes — watch me connect embeddings, a vector DB, and an agent in one flow.\" (angle: time-boxed urgency + end-to-end deliverable).",
+    "Accuracy before/after: Show a quick 20s demo of the same prompt answered by a vanilla LLM (hallucinates) vs. the RAG agent (accurate). End with: \"See how retrieval fixes hallucinations in real time.\" (angle: problem/solution contrast).",
+    "One-click demo tease: \"Upload any docs, index them, and get an instant searchable agent — no fine-tuning required.\" Start with a clickable UI upload and immediate search result. (angle: instant value + low friction).",
+    "Cost & latency cliffnote: \"This setup cuts API spend and reduces latency — I’ll show exactly which components to tweak for production.\" Follow with a screenshot of cost/latency improvement. (angle: operational ROI for teams)."
+  ],
+  "title_style_notes": [
+    "Put the high-intent keyword near the front (eg. \"RAG Agent: Build & Deploy in 25m | LangChain RAG Tutorial\") and include a bracketed format like [Live Demo] or [2025] for clarity.",
+    "Keep core title readable under 60 characters for mobile and include one tech tag (LangChain, LlamaIndex, Pinecone) to capture search and suggested traffic; craft a secondary variant focused on comparison (eg. \"RAG vs Fine-Tuning\").",
+    "Use a time or result promise (\"25m\", \"stop hallucinations\") to increase CTR, but ensure the thumbnail and first 15 seconds deliver on that promise to preserve retention and avoid clickbait.",
+    "A/B test two title permutations (time-based vs. problem-solution) and monitor CTR + average view duration; iterate titles in the first 48 hours if watch time is low."
+  ],
+  "content_structure": [
+    "0:00–1:30 — Cold open + TL;DR (1.5m): Fast demo sneak peek (before/after hallucination), state the goal (build & deploy RAG in ~25m), show repo link on screen.",
+    "1:30–4:00 — Architecture & Tooling choices (2.5m): Diagram core components (embeddings → vector DB → retriever → reranker → LLM agent), quick pros/cons of Pinecone/Weaviate/Milvus/Supabase and embedding options.",
+    "4:00–19:00 — Hands-on Build (15m): Stepwise coding: ingest, embed, index, build retriever + agent orchestration (LangChain or LlamaIndex snippets). Pause at key checkpoints (index size, retrieval quality) and show terminal outputs.",
+    "19:00–23:00 — Deploy & Optimize (4m): Containerize or deploy to Vercel/Cloud run, show latency and cost tweaks (chunk size, k, reranker). Demonstrate a quick live query against deployed endpoint.",
+    "23:00–25:00 — Evaluate, Best Practices & Wrap (2m): Show hallucination tests, evaluation metrics (precision@k), monitoring suggestions, next steps, CTA to repo and timestamps for deeper sections."
+  ],
+  "engagement_tactics": [
+    "Pin the GitHub repo + 1-line setup in the top comment and prompt: \"Clone this repo and comment with the DB you used — I’ll reply to the top 3 setups.\"",
+    "Mid-video interactive prompt at the end of the build section: ask viewers to pause and try the index on their dataset, then drop results/screenshots in comments; promise to highlight notable ones in the next video.",
+    "Use chapters with descriptive labels and encourage viewers to jump to the 'Deploy & Optimize' chapter if they’re time-constrained; include a pinned timestamped FAQ in comments.",
+    "Short on-screen micro-CTAs during the demo: subscribe if building RAGs weekly, like if the demo fixed hallucinations — combine with visual progress bar to show remaining runtime (keeps viewers watching).",
+    "Follow-up incentive: Offer a downloadable checklist or starter template in the description for viewers who subscribe + comment, and reply to/resolve top comments with short video clips or timestamps to boost engagement signals."
+  ]
+}

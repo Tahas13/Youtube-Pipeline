@@ -1,0 +1,114 @@
+1
+00:00:00,000 --> 00:00:04,000
+[Music] [excited] I asked a private PDF one question —
+it returned an accurate answer in 0.8 seconds.
+
+2
+00:00:04,000 --> 00:00:08,000
+In this video I'm showing how to build a RAG agent from scratch
+and how to reproduce this result.
+
+3
+00:00:08,000 --> 00:00:12,000
+[brief pause] We'll cover architecture, tools, and a sample use case
+so you can copy the repo and run it locally.
+
+4
+00:00:12,000 --> 00:00:15,000
+First — why RAG? [calm] It's often faster and cheaper
+than full fine-tuning for document Q&A.
+
+5
+00:00:15,000 --> 00:00:20,000
+00:15 — Quick context: the core deliverables are code, configs, and metrics.
+You'll get latency and accuracy numbers for each step.
+
+6
+00:00:20,000 --> 00:00:24,000
+00:30 — Preview demo: watch me query a private PDF.
+I'll show the vector retrieval and the final generated answer.
+
+7
+00:00:24,000 --> 00:00:30,000
+[Sound Effect] Live demo running — retriever returns top 3 hits,
+then the generator composes the final response.
+
+8
+00:00:30,000 --> 00:00:34,000
+00:45 — Architecture overview: embeddings into a vector DB,
+then a retriever and an LLM generator.
+
+9
+00:00:34,000 --> 00:00:39,000
+We'll compare Pinecone and FAISS, and show when to pick each one.
+[emphasis] I'll explain tradeoffs: latency, cost, and scale.
+
+10
+00:00:39,000 --> 00:00:44,000
+01:00 — Tools & stack: LangChain and LlamaIndex examples,
+OpenAI or other embeddings, and vector DB options.
+
+11
+00:00:44,000 --> 00:00:50,000
+01:15 — Sample dataset notes: chunking strategy, metadata, and filtering.
+Small changes here hugely affect retrieval accuracy.
+
+12
+00:00:50,000 --> 00:00:55,000
+[excited] 01:30 — Demo: inspect the retrieval hits—see which chunks matched,
+and how the prompt template guides the generator.
+
+13
+00:00:55,000 --> 00:01:00,000
+01:45 — Early optimization tips: batch embeddings,
+cache frequent queries, and use sparse filters to reduce noise.
+
+14
+00:01:00,000 --> 00:01:06,000
+02:00 — What's next: we'll deep dive into deployment,
+scaling to 1,000 users and monitoring p95 latency.
+
+15
+00:01:06,000 --> 00:01:12,000
+[calm] Now let's build: start with embeddings—I'll show code for batching
+and a simple Python example using OpenAI embeddings.
+
+16
+00:01:12,000 --> 00:01:18,000
+[Sound Effect] Create your index: example shows Pinecone init,
+FAISS local index creation, and metadata mapping.
+
+17
+00:01:18,000 --> 00:01:24,000
+[excited] Retriever tuning: adjust k, score threshold, and hybrid search
+for better precision and less hallucination.
+
+18
+00:01:24,000 --> 00:01:30,000
+Prompt engineering: include the source chunks, system instruction,
+and an explicit "cite sources" constraint to reduce fabrication.
+
+19
+00:01:30,000 --> 00:01:36,000
+Deployment notes: containerize with Docker, add a Gunicorn/Uvicorn server,
+and set up simple concurrency limits.
+
+20
+00:01:36,000 --> 00:01:42,000
+Security: encrypt vectors at rest if necessary, apply access controls,
+and remove PII before indexing when required.
+
+21
+00:01:42,000 --> 00:01:48,000
+Evaluation: run retrieval QA tests, measure exact match and MRR,
+and check hallucination rates on an eval dataset.
+
+22
+00:01:48,000 --> 00:01:54,000
+[encouraging] Repo link is pinned in the top comment — run the demo,
+then come back with questions about your dataset.
+
+23
+00:01:54,000 --> 00:02:00,000
+[Music] Subscribe for weekly production AI builds — next video:
+scaling RAG to 1,000 concurrent users. [excited]

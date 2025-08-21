@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:03,500
+Welcome to our tutorial on JavaScript Array Methods.
+
+2
+00:00:03,500 --> 00:00:07,000
+In this video, we will explore how to manipulate arrays effectively.
+
+3
+00:00:07,000 --> 00:00:10,000
+Let's start with an introduction to JavaScript arrays.
+
+4
+00:00:10,000 --> 00:00:15,000
+First, we need to understand what arrays are and how they work.
+
+5
+00:00:15,000 --> 00:00:20,000
+Next, we will cover key methods like map, filter, and reduce.

@@ -1,0 +1,140 @@
+{
+  "production_checklist": [
+    {
+      "step": "Script & Outline",
+      "time_estimate": "2-3 hours",
+      "quality_checkpoints": [
+        "Lead with a 15s cold open that promises a measurable outcome (e.g., \"Build a production RAG agent in 10 minutes that answers private PDFs\")",
+        "List 3 concrete deliverables viewers will get (code repo link, latency/accuracy numbers, deployment config)",
+        "Insert marker timestamps for every 2-3 minute engagement hook and chapter headings"
+      ]
+    },
+    {
+      "step": "Assets & Environment Prep",
+      "time_estimate": "1-2 hours",
+      "quality_checkpoints": [
+        "Confirm sample dataset(s) ready (private PDFs, multi-doc corpus) and anonymized for demo",
+        "Prepare code snippets, Docker/compose files, and vector DB test index (Pinecone/FAISS)",
+        "Pre-generate visual aids: architecture diagram, before/after latency table, prompt template screenshots"
+      ]
+    },
+    {
+      "step": "Record (Screen + Voice)",
+      "time_estimate": "1.5-2.5 hours",
+      "quality_checkpoints": [
+        "Capture a 15s cold open first — promise value and show a live output within those 15s",
+        "Record a 30-60s preview/demo clip that substantiates the hook (keep it tight & measurable)",
+        "Check audio levels, remove background noise, 1080p screen capture at 30–60fps, show timestamps when running code",
+        "Record small B-roll/overlays for transitions (code typing, config files, deployment logs)"
+      ]
+    },
+    {
+      "step": "Edit (Retention-focused)",
+      "time_estimate": "3-5 hours",
+      "quality_checkpoints": [
+        "Trim dead air; keep average scene length to 6–18s and cut to keep pace",
+        "Place proof-of-value within 30–60s; add a short 'what you'll get' lower-third",
+        "Insert engagement hooks every 2–3 minutes (text overlays like 'but here's the crazy part...')",
+        "Add chapters, captions, full transcript, and annotated code snippets in video",
+        "A/B test two intro versions (fast demo-first vs. context-first) using first 2 days view retention"
+      ]
+    },
+    {
+      "step": "Thumbnail & Title Drafts",
+      "time_estimate": "1-2 hours",
+      "quality_checkpoints": [
+        "Create 3 thumbnail options: 1) bold promise + result (latency/accuracy), 2) before/after comparison, 3) intrigue + face/emoji",
+        "Ensure headline text is readable at 140px tall; include primary keyword subtly",
+        "Run quick 5-person feedback (peers) to pick highest curiosity/readability variant"
+      ]
+    },
+    {
+      "step": "Upload, Metadata & Promotion",
+      "time_estimate": "45-90 minutes",
+      "quality_checkpoints": [
+        "Title with primary keyword at start; include 3–5 long-tail variants in first 150 chars of description",
+        "Add pinned comment with repo link, timestamps, and a single clear CTA (e.g., 'Download config →')",
+        "Add chapters, full transcript, 3-5 tags using trending keywords, and end-screen links for the next video",
+        "Schedule A/B thumbnail test if available and promote to community + relevant subreddits/Discord"
+      ]
+    }
+  ],
+  "hook_outline": [
+    {
+      "hook": "Live result-first cold open: \"I just asked a private PDF a question — 0.8s response and 95% accuracy. I'll show you how in 10 minutes.\"",
+      "angle": "Demo-first curiosity gap (shows a fast, measurable result) — promise measurable latency and accuracy within 15s"
+    },
+    {
+      "hook": "Problem-solution shock: \"Most RAG demos hallucinate — here's the one tweak that fixed 80% of hallucinations in my tests.\"",
+      "angle": "Threat + quick fix (creates fear of common failure then promises a concrete mitigation) — preview the fix by 15s"
+    },
+    {
+      "hook": "Optimization teaser: \"Swap this one line and your retrieval latency drops 10x — I'll show the exact config and tradeoffs live.\"",
+      "angle": "Tangible improvement promise (performance + code change) — show the before/after metric in the first 15s"
+    },
+    {
+      "hook": "Scale preview: \"Want 1,000 concurrent users? I'll show the exact Pinecone/FAISS config that kept p95 under 300ms.\"",
+      "angle": "Scalability promise that targets production concerns — give a concrete number (p95 300ms) within 15s"
+    }
+  ],
+  "title_style_notes": [
+    "Put the primary long-tail keyword at the start: e.g., \"How to Build a RAG Agent —\" followed by the high-value promise (time, metric, or outcome).",
+    "Use emotional triggers and power words: 'Production-ready', 'Zero Fine-Tuning', '10x Faster', 'Stop Hallucinations' to increase CTR.",
+    "Include a strong quantifier or timeframe (numbers increase clicks): 'in 10 Minutes', 'p95 < 300ms', '95% Accuracy'.",
+    "A/B test 2 title variants for the first 48–72 hours: 1) keyword-first technical title, 2) demo-result-first curiosity title; track impressions→clicks→first-30s retention."
+  ],
+  "content_structure": [
+    {
+      "section": "00:00-00:15 — Hook (problem/promise)",
+      "timing": "0:15",
+      "description": "Open with a live output or metric (demo-first). Promise a concrete outcome (speed, accuracy, or deployability) within 15s to reduce bounce rate."
+    },
+    {
+      "section": "00:15-00:45 — Context & Setup (why this matters)",
+      "timing": "0:30",
+      "description": "Explain the problem and why the promised result is valuable to an intermediate/advanced builder; preview the three deliverables (repo, config, deployment sketch). This delivers on the hook promise by 30–60s."
+    },
+    {
+      "section": "00:45-03:00 — Quick Preview/Demo (deliver on promise)",
+      "timing": "2:15",
+      "description": "Show a compact end-to-end demo (query a private doc, show vector DB retrieval and model output) so viewers see the working system early — cements retention at 30–60s."
+    },
+    {
+      "section": "03:00-06:00 — Build Walkthrough Part A (embeddings & index)",
+      "timing": "3:00",
+      "description": "Step-by-step: embedding choices, batching, vector DB selection (Pinecone vs FAISS), indexing tips. Insert an engagement hook at ~05:00 ('but here's the crazy part…') and a 5–10s visual of latency/accuracy table."
+    },
+    {
+      "section": "06:00-09:30 — Build Walkthrough Part B (retriever, prompt engineering, generator integration)",
+      "timing": "3:30",
+      "description": "Show retriever tuning, prompt templates to reduce hallucination, and generator integration (LangChain/LlamaIndex sample). Drop a micro-demo of the hallucination mitigation and a quick benchmark."
+    },
+    {
+      "section": "09:30-10:00+ — Optimization, Deployment & Recap + CTA",
+      "timing": "0:30+",
+      "description": "Summarize the payoffs, show deployment config (Docker, concurrency tips), cost/perf tradeoffs, and present next steps. Final 30s: strong CTA (subscribe, repo, next video tease) and visible end-screen link."
+    }
+  ],
+  "engagement_tactics": [
+    {
+      "tactic": "Early-action CTA + pinned resource",
+      "details": "Within the first 60s mention 'Download the repo & config in the pinned comment' and pin a comment with the code repo, timestamps, and a single primary CTA to reduce decision friction."
+    },
+    {
+      "tactic": "Mid-video interactive hooks and cards",
+      "details": "Every 2-3 minutes add a verbal hook ('but here's the crazy part...') plus a YouTube card/poll at ~4:00 asking 'Which deep-dive next? Latency / Cost / Security' to increase watch time and clicks to related content."
+    },
+    {
+      "tactic": "Specific comment prompt to drive replies",
+      "details": "Ask a focused question for the target audience: 'Which vector DB are you using? Pinecone, FAISS, or other — comment with your dataset size and I'll respond with tuning tips.' This increases comments and community signals."
+    },
+    {
+      "tactic": "End-screen + Next-video tease with urgency",
+      "details": "In the final 30s explicitly mention the next video (e.g., 'Next: Scale RAG to 1,000 users — drops Friday') and use end-screen links and a countdown/subscribe CTA to convert viewers to watch-next."
+    },
+    {
+      "tactic": "Pinned transcript & timed code snippets",
+      "details": "Provide a full transcript and chapter timestamps in the description and pinned comment; include one-click downloads for the example config to reduce drop-off for viewers who want to replicate the demo."
+    }
+  ]
+}

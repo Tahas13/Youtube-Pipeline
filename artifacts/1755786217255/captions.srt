@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:07,000
+Welcome — in this video I’ll build a production-ready RAG agent and deploy it live in under 25 minutes.
+
+2
+00:00:07,000 --> 00:00:14,000
+First, a quick demo: a vanilla LLM hallucinated on a question, and the RAG agent gave a source-backed correct answer.
+
+3
+00:00:14,000 --> 00:00:24,000
+Goal: explain architecture, choose tools, and show a hands-on LangChain / LlamaIndex build with a vector DB.
+
+4
+00:00:24,000 --> 00:00:34,000
+Architecture highlights: embeddings -> vector database -> retriever -> optional reranker -> LLM agent orchestration.
+
+5
+00:00:34,000 --> 00:00:46,000
+Tooling: we’ll demo Pinecone and Supabase for vectors, compare Weaviate and Milvus, and use OpenAI or local embedding models.
+
+6
+00:00:46,000 --> 00:01:00,000
+Setup: clone the repo, provision a vector DB, add API keys to env, and prepare a small demo dataset to index.
+
+7
+00:01:00,000 --> 00:01:14,000
+Step 1: ingest documents and create embeddings. Step 2: index to the vector DB. Step 3: wire the retriever to the agent.
+
+8
+00:01:14,000 --> 00:01:30,000
+Next up we'll walk through the code, show retrieval evaluation metrics, deploy a containerized endpoint, and optimize cost.

@@ -1,0 +1,50 @@
+{
+  "trending_keywords": [
+    "how to build a RAG agent",
+    "RAG agent tutorial 2025",
+    "retrieval augmented generation tutorial",
+    "build RAG agent from scratch",
+    "RAG chatbot with vector store",
+    "LangChain RAG step by step",
+    "LlamaIndex RAG example",
+    "RAG agent OpenAI embeddings",
+    "RAG pipeline production deployment",
+    "RAG agent for document search",
+    "RAG vs fine-tuning LLMs",
+    "real-time RAG agent demo",
+    "RAG with Pinecone example",
+    "document retrieval with FAISS",
+    "RAG agent cost optimization",
+    "multi-document RAG walkthrough",
+    "secure RAG for private data",
+    "RAG agent prompt engineering",
+    "evaluate RAG retrieval accuracy",
+    "scale RAG agent to production"
+  ],
+  "competitor_titles": [
+    "I Built a RAG Chatbot That Answers Any Document (LangChain + FAISS) — Live Demo",
+    "Build a Production RAG Agent in 15 Minutes (OpenAI + Pinecone)",
+    "How I Made a RAG Agent to Automate Customer Support — Step-by-Step",
+    "From Zero to RAG Agent: Deploying a Document Q&A Bot (LlamaIndex + FastAPI)",
+    "Don't Fine-Tune — Use RAG: Faster, Cheaper, Smarter (Demo + Benchmarks)",
+    "Mind-Blowing RAG Agent Tutorial — Real-Time Retrieval + LLM Generation",
+    "Scale Your RAG System: Low-Latency Retrieval & Cost Tricks"
+  ],
+  "hook_ideas": [
+    "Watch me build a production-ready RAG agent in 10 minutes — no fine-tuning required.",
+    "Build a RAG agent that answers private PDFs instantly and see the accuracy live.",
+    "See how swapping one line of code cut retrieval latency by 10x — full demo.",
+    "Avoid the common RAG pitfall that causes hallucinations in 80% of demos.",
+    "Discover how to combine embeddings and sparse search for dramatically better results.",
+    "Scale a RAG agent to 1,000 concurrent users — here’s the exact config I used."
+  ],
+  "target_audience": "Intermediate to advanced developers and ML engineers (ages ~22-45) building AI products or chatbots, familiar with LLM concepts and tooling (LangChain, LlamaIndex, Pinecone, FAISS), working in startups, SaaS, or AI R&D and interested in productionizing retrieval-augmented systems.",
+  "content_pillars": [
+    "End-to-end build: step-by-step code walkthrough for embeddings, vector DB, retriever, and generator integration (LangChain/LlamaIndex examples)",
+    "Deployment & scaling: containerization, API patterns, concurrency, latency tuning, and vector DB ops (Pinecone/FAISS strategies)",
+    "Evaluation & QA: retrieval accuracy metrics, hallucination tests, prompt templates, and automated test harnesses",
+    "Cost & performance optimization: embedding model selection, batching, caching, index configuration, and cost/perf tradeoffs",
+    "Security & privacy: handling private documents, access controls, encryption, and redaction best practices"
+  ],
+  "seo_insights": "Place the primary long-tail keyword (e.g., \"how to build a RAG agent\") in the beginning of the title and within the first 100 characters; include 3–5 long-tail variants in the first 150 characters of the description and the pinned comment. Aim for ~1–1.5% keyword density for primary phrases across title, description, and transcript, use natural phrase variations in headings/timestamps, and add a full transcript and chapter timestamps to boost search relevance."
+}

@@ -1,0 +1,49 @@
+{
+  "trending_keywords": [
+    "RAG agent",
+    "retrieval augmented generation",
+    "build RAG agent",
+    "RAG tutorial LangChain",
+    "LlamaIndex RAG demo",
+    "vector database tutorial",
+    "semantic search with embeddings",
+    "Pinecone RAG example",
+    "Weaviate RAG walkthrough",
+    "RAG vs fine-tuning",
+    "open-source RAG stack",
+    "deploy RAG agent to production",
+    "RAG agent for customer support",
+    "LLM tool-using agents",
+    "embeddings pipeline",
+    "cost efficient RAG",
+    "low-latency retrieval",
+    "GPT-4o RAG demo",
+    "RAG evaluation metrics",
+    "agent orchestration LangChain"
+  ],
+  "competitor_titles": [
+    "Build a RAG App with LangChain & Pinecone in 15 Minutes (End-to-End)",
+    "RAG Agents Explained — Live Demo with LlamaIndex + Milvus",
+    "How to Build a GPT-Powered RAG System for Customer Support",
+    "Step-by-Step RAG Tutorial: Semantic Search + LLM Answers",
+    "Productionizing RAG: From Notebook to API with Vector DBs",
+    "RAG vs Fine-Tuning: Which Should You Use? (Code Demo)"
+  ],
+  "hook_ideas": [
+    "Watch me build a searchable AI that knows all our docs — from zero to working demo in 10 minutes.",
+    "Most people fine-tune models — I'll show a cheaper, faster RAG agent that beats fine-tuning for knowledge tasks.",
+    "This one-line change cut our RAG latency by 50% — I'll show the trick and the full pipeline.",
+    "I fed a messy 10,000-page dataset into a RAG agent — here's how it answers real user questions.",
+    "Stop guessing embeddings and vector stores — I'll compare three stacks live and pick the best for production.",
+    "I'll deploy this RAG agent to an API and show live queries, cost, and failure cases in under 20 minutes."
+  ],
+  "target_audience": "Developers, ML engineers, prompt engineers and technical product builders who want hands-on guidance building and deploying retrieval-augmented generation agents (including those evaluating RAG vs fine-tuning and choosing a vector DB/agent framework).",
+  "content_pillars": [
+    "RAG fundamentals and why RAG beats fine-tuning for many knowledge tasks",
+    "End-to-end demo: ingestion -> embeddings -> vector DB -> LLM prompt & agent orchestration",
+    "Tooling comparison: LangChain, LlamaIndex, Pinecone, Milvus, Weaviate and open-source stacks",
+    "Production considerations: latency, cost, caching, evaluation, and privacy/security",
+    "Deployment and monitoring: API wrapping, batching, and observability for RAG agents"
+  ],
+  "seo_insights": "Use a keyword-rich title with primary terms (e.g., \"Build a RAG agent\" or \"RAG tutorial LangChain\") and place long-tail phrases in the first 100 characters of the description. Include a timestamped walkthrough, links to the code repo, and a full transcript for better indexing; add tags for vector DB names and frameworks (Pinecone, LlamaIndex, LangChain) to capture search intent."
+}

@@ -1,0 +1,48 @@
+{
+  "trending_keywords": [
+    "build a RAG agent tutorial",
+    "RAG agent demo 2025",
+    "retrieval augmented generation walkthrough",
+    "LangChain RAG agent example",
+    "RAG with LlamaIndex step by step",
+    "vector database for RAG Pinecone setup",
+    "FAISS RAG agent local deployment",
+    "RAG pipeline production best practices",
+    "open source RAG agent tutorial",
+    "RAG agent with OpenAI embeddings",
+    "local LLM RAG agent demo",
+    "chroma db RAG quickstart",
+    "how to build retrieval agent",
+    "RAG agent for customer support",
+    "debugging RAG hallucinations tutorial",
+    "scaling RAG agents with vectordb",
+    "multi-document RAG agent example",
+    "RAG agent prompt engineering tips",
+    "end-to-end RAG agent build guide",
+    "real-time RAG agent streaming demo"
+  ],
+  "competitor_titles": [
+    "Build a RAG Agent with LangChain in 10 Minutes (Step-by-Step!)",
+    "How I Built a Chatbot That Never Forgets — RAG + Vector DB Tutorial",
+    "Production RAG: From PDF to QA System with Pinecone and OpenAI",
+    "End-to-End RAG Agent Demo — LlamaIndex + FAISS (No Paid APIs)",
+    "Stop Hallucinations: RAG Prompting Tricks That Actually Work",
+    "Scale Your RAG Agent: Vector DB + Streaming LLMs Explained"
+  ],
+  "hook_ideas": [
+    "Watch me assemble a working RAG agent in under 12 minutes — no fluff.",
+    "Stop training massive models — learn to add retrieval and double accuracy.",
+    "See how one line of code turned my chatbot from useless to reliable.",
+    "Avoid this common RAG mistake that breaks production systems.",
+    "Follow along to deploy a RAG agent that answers from your docs today.",
+    "Discover the exact configuration that fixed my hallucinations instantly."
+  ],
+  "target_audience": "Software developers and ML engineers (age 20-40) with intermediate experience in Python and NLP, interested in building production-ready chatbots and retrieval systems using LangChain, LlamaIndex, or vector databases; also attracts technical product managers and AI enthusiasts evaluating RAG for customer support or knowledge management.",
+  "content_pillars": [
+    "Practical Setup: Step-by-step environment, dependencies (LangChain/LlamaIndex), and vector DB configuration (Pinecone/FAISS/Chroma) with runnable code snippets.",
+    "Retrieval Pipeline: Building and optimizing embeddings, chunking strategies, and relevance/scoring to reduce latency and improve answer accuracy.",
+    "Prompting & Safety: Prompt templates, context window management, and techniques to mitigate hallucinations and ensure factual responses.",
+    "Deployment & Scaling: Containerization, streaming responses, caching strategies, and monitoring for production RAG agents."
+  ],
+  "seo_insights": "Use 1–2 primary long-tail keywords (e.g., \"build a RAG agent tutorial\", \"LangChain RAG agent example\") in the title—place the most important keyword within the first 60 characters. Aim for ~1.0–1.8% keyword density in the description and repeat primary keywords naturally in the first 1–2 sentences, video tags, chapters, and the auto-generated transcript to boost discoverability."
+}

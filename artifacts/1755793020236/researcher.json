@@ -1,0 +1,54 @@
+{
+  "trending_keywords": [
+    "RAG agent tutorial",
+    "build RAG agent from scratch",
+    "retrieval augmented generation tutorial",
+    "RAG with LangChain and Pinecone",
+    "RAG agent demo 2025",
+    "RAG agent for enterprise search",
+    "RAG agent vector database setup",
+    "fine-tune LLM for RAG",
+    "RAG pipeline step-by-step",
+    "RAG vs retrieval only",
+    "open source RAG stack 2025",
+    "RAG agent real-time retrieval",
+    "RAG for customer support",
+    "RAG agent architecture explained",
+    "RAG with FAISS and OpenAI",
+    "multimodal RAG agent tutorial",
+    "cheap RAG deployment on AWS",
+    "RAG agent latency optimization",
+    "secure RAG pipelines GDPR",
+    "RAG agent evaluation metrics",
+    "RAG agent prompt engineering",
+    "RAG for knowledge base search",
+    "RAG QA system build tutorial",
+    "RAG using embeddings and vector search"
+  ],
+  "competitor_titles": [
+    "I built a RAG Agent in 10 minutes — It Answers Anything (Live Demo)",
+    "Build a RAG-Powered Chatbot with LangChain + Pinecone (Step-by-Step)",
+    "How I Turned Company Docs Into an AI Agent — Full RAG Tutorial",
+    "RAG Agent Explained: Production-Ready Retrieval-Augmented Agents",
+    "From Zero to RAG Agent: Full Stack Demo with FAISS & OpenAI",
+    "This RAG Agent Replaced Our Support Team (Case Study & Numbers)",
+    "Optimize RAG Latency: Make Your AI Agent 5x Faster"
+  ],
+  "hook_ideas": [
+    "Build a working RAG agent in 10 minutes — watch this live demo and copy the repo.",
+    "See how I turned 1,000 docs into a chat agent that never hallucinates — here's the exact pipeline.",
+    "Avoid the common RAG mistakes — learn the three tweaks that cut costs by 70%.",
+    "Watch me connect LangChain, FAISS and OpenAI in one script — zero boilerplate.",
+    "Discover how to make your RAG agent answer enterprise queries with 99% accuracy.",
+    "Fix latency now: follow these deployment steps to make RAG responses instantaneous."
+  ],
+  "target_audience": "Engineers and technical founders (ages 22-45) — intermediate to advanced skill level in Python and ML tooling; ML engineers, data engineers, AI product managers, and developer-entrepreneurs interested in building production RAG systems for knowledge search, chatbots, or customer support automation.",
+  "content_pillars": [
+    "End-to-end RAG build: data ingestion, embedding generation, vector DB setup (FAISS/Pinecone), retriever wiring, and LLM agent integration with runnable code snippets.",
+    "Prompt engineering & agent orchestration: crafting retrieval-aware prompts, chaining tools, and fallback strategies to reduce hallucinations with concrete examples.",
+    "Deployment & optimization: cost/latency profiling, batching, caching, autoscaling on AWS/GCP, and low-cost vector store strategies.",
+    "Testing, monitoring & evaluation: evaluation metrics (EM, F1, retrieval recall), automated tests, user feedback loops, and logging to detect drift and hallucinations.",
+    "Security & compliance: data filtering, PII handling, encryption, and GDPR-aware indexing practices for production RAG systems."
+  ],
+  "seo_insights": "Include the primary long-tail keyword in the video title (within the first 60 characters) and repeat it verbatim in the first sentence of the description; aim for a keyword density of ~1.0–1.8% across the title+description and include 3–5 close keyword variations as tags. Add a full transcript/closed captions, timestamped chapters using pillar keywords, and a pinned comment with the repo/link + keyword-rich summary to boost discoverability."
+}

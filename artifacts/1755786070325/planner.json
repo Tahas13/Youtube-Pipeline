@@ -1,0 +1,36 @@
+{
+  "production_checklist": [
+    "Script & storyboard: write a tight script (cold open, 3–5 main beats, CTA). Include exact commands to run, timestamps for chapters, and a short verbal SEO line containing target keywords (e.g., \"Build a RAG agent with LangChain + Pinecone\"). Keep the cold open <30s and list 3 on-screen callouts you will show during editing (repo link, timestamp, cost metric).",
+    "Prep code & demo assets: create a minimal reproducible repo branch, small sample dataset (or subset of 10–100 docs), pre-compute embeddings for one demo run, save environment vars and Dockerfile. Add a README with one-line run instructions and a 'Quick test' script that returns a sample query output.",
+    "Recording setup & run-through: set up mic, camera, terminal theme, 1080p screen capture, and disable notifications. Do 2 dry runs: full scripted run and a 'failure scenario' run (e.g., missing API key or slow retrieval). Record in segments (hook, each demo block, deploy) to simplify edits.",
+    "Record: capture the cold open first, then record modular segments: architecture overview, ingestion & embeddings, vector DB setup, agent orchestration & prompt, deploy API & live queries, cost/latency analysis, failure cases, and closing CTA. Record B-roll of diagrams and slides for transitions.",
+    "Edit & polish: assemble rough cut, tighten to target length, speed up long terminal installs (time-lapse), add callout overlays for commands, highlight one-line latency hack visually, insert chapters/timestamps, add captions and code-synced text snippets, normalize audio, color-correct, and include an end screen and 2 recommended videos.",
+    "Thumbnail & upload checklist: design a clickable thumbnail (large readable text: e.g., \"RAG Agent in 20m\" + LangChain/Pinecone logos), craft an SEO-first description (first 100 chars contain primary phrase), add code repo + timestamps + transcript links in description, tag vector DBs & frameworks (LangChain, LlamaIndex, Pinecone, Milvus, Weaviate), schedule publish time and pin the repo & top resources in the first comment."
+  ],
+  "hook_outline": [
+    "Zero-to-working demo in 10 minutes: start by showing a live query answered correctly from your docs, then rewind and say \"I'll build this in 10 minutes using LangChain + Pinecone — no fine-tuning.\"",
+    "Cost & speed contrast: present a one-line on-screen comparison (cost/query and latency) between fine-tuning and RAG, then promise a demo that beats fine-tuning for knowledge tasks while being cheaper and faster to iterate.",
+    "Latency trick + proof: tease \"one-line change cut our RAG latency by 50%\" and immediately show a quick before/after terminal benchmark, then promise to reveal the exact change and where to apply it in production.",
+    "Live deploy & failure show: open with the deployed API responding to a live user query, then intentionally trigger a failure (e.g., missing chunk or stale doc) and say \"I'll show how to avoid this in production and monitor for it.\""
+  ],
+  "title_style_notes": [
+    "Put the primary keyword early: start with phrases like \"Build a RAG agent\" or \"RAG tutorial LangChain\" to match search intent and SERP previews.",
+    "Include frameworks and promise/time where relevant: add framework names (LangChain, LlamaIndex, Pinecone) and a short promise or time (e.g., \"in 20 minutes\") to increase clicks — e.g., \"Build a RAG Agent with LangChain & Pinecone — 20m Tutorial\".",
+    "Use brackets/tags for format and audience: add [Tutorial], [Demo], or [Production] to signal format; include audience qualifiers like \"for Developers\" or \"for ML Engineers\" when space allows.",
+    "Keep title scannable and put long-tail phrases in the description: aim for ~50–65 characters for the visible title; place supporting long-tail keywords and step-by-step notes in the first 100 characters of the description for SEO."
+  ],
+  "content_structure": [
+    "0:00–0:30 Cold open & value prop — show live query result, state target build (LangChain/Pinecone), and summarize what viewer will walk away with.",
+    "0:30–2:00 Architecture overview — quick diagram of ingestion → embeddings → vector DB → retriever → LLM agent → API; mention tradeoffs (RAG vs fine-tuning) in one sentence.",
+    "2:00–8:00 Data ingestion & embeddings — demo code to ingest docs, show key commands, note embedding model choice and cost implications; include one quick command viewers can copy.",
+    "8:00–14:00 Vector DB & semantic search setup — configure Pinecone/Milvus/Weaviate (pick one primary stack + mention alternates), show indexing, similarity query, and benchmark latency with a screenshot.",
+    "14:00–20:00 Agent orchestration & prompt design — assemble retriever + prompt template, demo chain of tools or agent use, surface the one-line latency hack and explain why it helps; show a bad vs good prompt example.",
+    "20:00–25:00 Deployment, monitoring & failure cases — wrap the agent in a lightweight API, run live queries (cost-per-query callout), demonstrate a failure/recovery, and list observability + caching tips. Close with CTA, repo link, and next steps."
+  ],
+  "engagement_tactics": [
+    "Pin the code repo and a timestamped 'Quickstart' command in the top comment and description; ask viewers to run the quick test and report the first error they hit in comments (respond to top replies).",
+    "Use chapters/timestamps in the description and a pinned comment so viewers can jump to specific sections (ingestion, vector DB, deploy). Highlight the minute where the latency trick is shown to drive re-watches.",
+    "End with a clear, single CTA: \"Try the repo, run the Quick Test, and comment 'Ran it' + your vector DB choice\" — incentivize participation by promising to benchmark top-requested stores in a follow-up video.",
+    "Include an on-screen interactive prompt during the demo: ask viewers which vector DB you should benchmark live next (Pinecone vs Milvus vs Weaviate) and run a YouTube community poll linked from the video card/description."
+  ]
+}

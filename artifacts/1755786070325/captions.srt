@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:06,000
+Build a RAG agent with LangChain + Pinecone — live demo and step-by-step guide.
+
+2
+00:00:06,000 --> 00:00:16,000
+In this video we'll cover the architecture: ingestion, embeddings, vector DB, retriever, LLM agent, and API.
+
+3
+00:00:16,000 --> 00:00:30,000
+First we ingest a small dataset, compute embeddings, and index vectors in Pinecone for semantic search queries.
+
+4
+00:00:30,000 --> 00:00:44,000
+Next we wire the retriever into an agent orchestration layer, craft prompt templates, and run live queries.
+
+5
+00:00:44,000 --> 00:00:56,000
+Sample use case: a customer support RAG agent that answers from product docs with high relevance and low cost.
+
+6
+00:00:56,000 --> 00:01:10,000
+Finally we'll deploy a lightweight API, discuss monitoring and caching, and show failure cases to avoid in production.

@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:06,000
+[Music] Build RAG Agent from Scratch — in 10 minutes I'll show a runnable pipeline you can clone. [excited]
+
+2
+00:00:06,500 --> 00:00:15,000
+Quick preview: ask a question and watch the agent fetch the exact document snippet and answer with minimal hallucination.
+
+3
+00:00:15,500 --> 00:01:30,000
+Setup snapshot: Python, venv, LangChain, an embeddings model, and a vector DB (FAISS or Pinecone). I'll show the exact one-line setup in the pinned repo. [confident]
+
+4
+00:03:30,000 --> 00:04:30,000
+Embeddings: choose a semantically-strong model and keep consistent dimensions. Chunk your docs with overlap — this fixes context loss. [practical tip]
+
+5
+00:04:30,500 --> 00:06:30,000
+Vector DB demo: indexing into FAISS, add metadata for filterable retrieval, then run a query to compare raw vs tuned retriever results. Watch the recall vs precision tradeoff. [sound effect]
+
+6
+00:08:30,000 --> 00:09:15,000
+Agent wiring: LangChain agent + retrieval-augmented prompt template. Add a fallback that cites source IDs to stop hallucinations. Here’s the before/after fix. [surprised]
+
+7
+00:09:15,500 --> 00:10:00,000
+Deployment tips: three quick optimizations — batching, response caching, and cold-start mitigation — that cut cost and latency. Repo link pinned. [Music][closing] [motivated]
