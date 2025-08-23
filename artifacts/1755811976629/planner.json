@@ -1,0 +1,37 @@
+{
+  "production_checklist": [
+    "Script writing: 2-3 hours including research on latest RAG best practices. Quality gate: Script must include at least 3 visual demonstrations and 2 code examples.",
+    "Recording session: 1.5-2 hours with split-screen setup showing code editor and live demonstrations. Quality gate: All code segments must be error-free and properly highlighted.",
+    "Editing phase: 4-5 hours with attention to pacing (cuts every 5-7 seconds) and adding animated text overlays for key concepts. Quality gate: Retention curve analysis using editing software tools.",
+    "Thumbnail creation: 1 hour producing 3 variations with bold text, contrasting colors, and facial expression (surprise/excitement). Quality gate: A/B test with focus group for highest CTR.",
+    "Upload optimization: 30 minutes including keyword-rich description with timestamps, strategic tagging using trending keywords, and end-screen elements. Quality gate: All metadata fields completed with primary keywords in first 100 characters."
+  ],
+  "hook_outline": [
+    "In the first 15 seconds: Show a side-by-side comparison of a basic chatbot failing versus your RAG agent succeeding with a complex query, then say 'I'll show you the exact architecture that makes this possible in the next 15 minutes'",
+    "Cold open with a surprising statistic: '95% of RAG implementations fail in production due to one common mistake... which I almost made too. Here's how to avoid it and build something that actually works'",
+    "Start with a live demonstration of your RAG agent processing 1000 documents in under 10 seconds, then cut to 'And the best part? You can build this yourself with just Python and LangChain - here's how'",
+    "Open with a relatable problem: 'Tired of chatbots that hallucinate answers? I was too - until I discovered this RAG implementation that actually understands context. Let me show you the secret sauce'"
+  ],
+  "title_style_notes": [
+    "Use emotional power words: 'Ultimate', 'Secret', 'Shocking', 'Never Before Seen' combined with specific numbers '3x Faster', '15 Minute Build'",
+    "Include curiosity gap between first and second part of title: 'I Built a RAG Agent That Outperforms ChatGPT [Here's Why It Works]'",
+    "A/B test two styles: Benefit-driven ('Build Production-Ready RAG Agents 3x Faster') vs Curiosity-driven ('The RAG Implementation Everyone Is Getting Wrong')",
+    "Place primary keyword 'RAG agent' within first 3 words, include year '2024' for freshness, and keep under 60 characters for mobile display"
+  ],
+  "content_structure": [
+    "00:00-00:15: Hook - Live demo comparison showing RAG agent superiority with a complex query, promise of revealing architecture",
+    "00:15-00:45: Context setup - Why traditional chatbots fail, the RAG solution explained simply, what viewers will build",
+    "00:45-05:00: Architecture deep dive - Component selection, vector database integration, LangChain setup with code walkthrough",
+    "05:00-10:00: Implementation phase - Step-by-step building with visual code highlights, common pitfalls to avoid",
+    "10:00-13:00: Optimization techniques - Performance tuning, query optimization, scaling strategies with real metrics",
+    "13:00-14:30: Deployment & best practices - Production readiness, monitoring, evaluation metrics demonstration",
+    "14:30-15:00: Recap of key takeaways + CTA - Summary of what was built, next steps, and invitation to download code"
+  ],
+  "engagement_tactics": [
+    "At 3:00 and 8:00 minutes: Insert 'engagement hooks' - 'But here's what most tutorials don't show you...' followed by a surprising optimization technique",
+    "Interactive poll at 6:00: 'Which vector database are you using? Vote now in comments: Pinecone, Weaviate, or Chroma?'",
+    "Specific call-to-action at 12:00: 'Download the complete code template from the description and try modifying the retrieval threshold - comment your results'",
+    "End-screen with sequenced CTAs: First video suggestion ('Next: Advanced RAG Optimization'), then subscribe prompt, then website link for code repository",
+    "Mid-roll comment prompt: 'Pause here and try implementing the document processor yourself - drop a comment when you get it working!'"
+  ]
+}

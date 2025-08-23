@@ -36,3 +36,6 @@ export function fileExists(filePath: string): boolean {
 export function getArtifactsPath(jobId: string): string {
   return path.join(process.cwd(), "artifacts", jobId)
 }
+
+export const readJSON = readJSONFile
+export const readText = readTextFile

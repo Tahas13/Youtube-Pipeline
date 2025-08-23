@@ -7,7 +7,8 @@ import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
-import { Loader2, Download, CheckCircle, AlertCircle, Play, FileText, Clock } from "lucide-react"
+import { Loader2, Download, CheckCircle, AlertCircle, Play, FileText, Clock, Youtube, ExternalLink } from "lucide-react"
+import { YouTubeAuth } from "./youtube-auth"
 
 interface DownloadableFile {
   name: string
@@ -36,6 +37,9 @@ export default function YouTubePipeline() {
   const [error, setError] = useState<string | null>(null)
   const [currentProgress, setCurrentProgress] = useState<ProgressUpdate | null>(null)
   const [downloadErrors, setDownloadErrors] = useState<Record<string, string>>({})
+  const [youtubeCredentials, setYoutubeCredentials] = useState<any>(null)
+  const [isUploading, setIsUploading] = useState(false)
+  const [uploadResult, setUploadResult] = useState<any>(null)
 
   const handleGenerate = async () => {
     if (!topic.trim()) {
@@ -153,6 +157,37 @@ export default function YouTubePipeline() {
     }
   }
 
+  const handleYouTubeUpload = async (titleIndex = 0) => {
+    if (!result || !youtubeCredentials) return
+
+    setIsUploading(true)
+    setError(null)
+
+    try {
+      const response = await fetch("/api/youtube-upload", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          jobId: result.jobId,
+          credentials: youtubeCredentials,
+          titleIndex,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to upload to YouTube")
+      }
+
+      setUploadResult(data)
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Upload failed")
+    } finally {
+      setIsUploading(false)
+    }
+  }
+
   const getProgressPercentage = () => {
     if (!currentProgress) return 0
     const stageProgress: Record<string, number> = {
@@ -265,6 +300,52 @@ export default function YouTubePipeline() {
           )}
         </CardContent>
       </Card>
+
+      {!youtubeCredentials && <YouTubeAuth onAuthenticated={setYoutubeCredentials} />}
+
+      {result && youtubeCredentials && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Youtube className="h-5 w-5 text-red-500" />
+              Upload to YouTube Studio
+            </CardTitle>
+            <CardDescription>Directly upload your generated content to YouTube as a private draft</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {uploadResult ? (
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 p-3 text-sm text-green-600 bg-green-50 rounded-md">
+                  <CheckCircle className="h-4 w-4" />
+                  Successfully uploaded to YouTube Studio!
+                </div>
+                <Button
+                  variant="outline"
+                  onClick={() => window.open(uploadResult.studioUrl, "_blank")}
+                  className="w-full"
+                >
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  Open in YouTube Studio
+                </Button>
+              </div>
+            ) : (
+              <Button onClick={() => handleYouTubeUpload(0)} disabled={isUploading} className="w-full">
+                {isUploading ? (
+                  <>
+                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    Uploading to YouTube...
+                  </>
+                ) : (
+                  <>
+                    <Youtube className="mr-2 h-4 w-4" />
+                    Upload to YouTube Studio
+                  </>
+                )}
+              </Button>
+            )}
+          </CardContent>
+        </Card>
+      )}
 
       {result && (
         <Card>

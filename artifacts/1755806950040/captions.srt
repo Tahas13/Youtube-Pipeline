@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:15,000
+[Music] Build RAG Agent Tutorial — in this video I'll show a complete, working RAG agent in a 10-minute demo. [excited]
+
+2
+00:00:15,000 --> 00:00:45,000
+Quick preview: you’ll see PDFs ingested, embeddings created, a vector index, then live queries answering doc-based questions with near-zero hallucinations.
+
+3
+00:00:45,000 --> 00:01:30,000
+Prereqs: Python, an LLM API key, pip install langchain, embeddings library, and a vector DB account or local FAISS. I'll show commands in the pinned comment. [calm]
+
+4
+00:03:00,000 --> 00:04:00,000
+Architecture: ingest -> embed -> index -> retrieve -> LLM. Use retrieval-first prompts to ground answers. Default stack I recommend: LangChain + Pinecone (or FAISS locally) + OpenAI or local LLM.
+
+5
+00:04:00,000 --> 00:05:00,000
+Live code: create embeddings for a folder of PDFs, upsert vectors, then run a similarity search. Watch the terminal — we get top-K passages, then pass them to a concise prompt template.
+
+6
+00:05:00,000 --> 00:06:00,000
+Demo query: (shows question) — note the retrieval context inserted. Result: concise, sourced answer with citation snippet. [surprised] This cut hallucinations dramatically.
+
+7
+00:07:30,000 --> 00:08:30,000
+Optimization tip: use reranking or hybrid search for precision, shard large corpora, and cache frequent queries. Batching embeddings reduces cost. [practical]
+
+8
+00:09:00,000 --> 00:10:00,000
+Recap: 1) ingest and embed, 2) choose right vector DB, 3) use retrieval-first prompts + monitoring. Repo link in pinned comment — try it and comment 'RAG' for the code. [enthusiastic]

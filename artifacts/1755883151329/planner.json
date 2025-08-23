@@ -1,0 +1,36 @@
+{
+  "production_checklist": [
+    "Script writing (30-45 min): Outline follows hook-promise-payoff structure with timed sections, includes 3 engagement hooks, and integrates target keywords naturally",
+    "Recording (45-60 min): High-quality audio (check for background noise), clear visual demonstrations of code, and energetic delivery emphasizing key points",
+    "Editing (90-120 min): Add dynamic cuts every 15-30 seconds, insert B-roll for code snippets, overlay text highlights for key terms, and include subtle background music",
+    "Thumbnail creation (20-30 min): Use high-contrast colors (red/white), include a code snippet visual, bold text with 'RAG Agent', and a curiosity trigger (e.g., 'SECRET REVEALED')",
+    "Upload optimization (15 min): Write description with keywords in first two lines, add timestamps for each section, include 3-5 relevant tags (e.g., RAG tutorial, LangChain), and set end screen to link to a related video"
+  ],
+  "hook_outline": [
+    "I tested 15 RAG implementations—here's the one mistake that causes 90% to fail (show a quick visual of an error log vs. working demo)",
+    "In 60 seconds, I'll show you how to build a RAG agent that outperforms custom-trained models (display a side-by-side performance comparison graph)",
+    "This secret architecture pattern makes RAG agents 10x more effective instantly (cue a dramatic transition from a basic to an optimized system flow)",
+    "What if you could build an enterprise-grade AI assistant without complex code? (flash a clip of the final demo answering complex queries smoothly)"
+  ],
+  "title_style_notes": [
+    "Include power words like 'Secret', 'Instant', or 'Proven' paired with emotional triggers (e.g., 'Stop Wasting Time') to compel clicks",
+    "Keep titles under 60 characters for mobile visibility, and place primary keywords ('RAG agent', 'tutorial') at the beginning",
+    "A/B test titles with variations: one focused on outcomes ('Build a RAG Agent in 1 Hour') vs. one focused on problems ('Why 90% of RAG Implementations Fail')",
+    "Use title case and avoid clickbait—ensure the title accurately reflects the video's content to maintain viewer trust"
+  ],
+  "content_structure": [
+    "00:00-00:15: Hook - Reveal the common RAG mistake and promise a solution (high-energy delivery with quick cuts)",
+    "00:15-00:45: Context - Why RAG matters for AI developers and the core architecture overview (visual flowchart)",
+    "00:45-04:30: Main content - Step-by-step implementation using LangChain and vector databases (code walkthrough with pauses for explanation)",
+    "04:30-06:00: Engagement hook - 'But here's the crazy part...' showcase performance optimization tip (side-by-side benchmark)",
+    "06:00-08:45: Advanced techniques - Error handling and deployment strategies (real-world examples with error simulations)",
+    "08:45-09:15: Recap + CTA - Summarize key takeaways, direct to source code in description, and tease next video on fine-tuning"
+  ],
+  "engagement_tactics": [
+    "Pose a question at 2:30 (e.g., 'What's the biggest challenge you've faced with RAG? Comment below!') and pin the best response",
+    "Use an interactive poll at 5:00 via YouTube Community Tab (prompt: 'Which RAG component do you find trickiest? Options: Vector DBs, Query Routing, Evaluation')",
+    "Insert a mid-roll card at 4:00 teasing a bloopers/reel video for bloopers to reduce drop-off",
+    "End with a strong CTA: 'Smash like if you learned something, and subscribe for part 2 on deploying to production'",
+    "Add a clickable annotation at 7:00 linking to a related video on LangChain basics for newer viewers"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "production_checklist": [
+    {
+      "step": "Script & Plan",
+      "time_estimate": "2-4 hours",
+      "quality_checkpoints": [
+        "Write 90-120s cold open that promises specific outcome (e.g., 'By minute 6 you'll have a working LangChain RAG agent').",
+        "Include 3-4 micro-promises (preview clips) at 30s and 60s marks.",
+        "Embed primary long-tail keyword at start of title line and in first 25 words of description draft.",
+        "Create chapter markers and list 2-3 retention spikes (demos, reveal, performance numbers)."
+      ]
+    },
+    {
+      "step": "Record (Screen + Host)",
+      "time_estimate": "45-90 minutes",
+      "quality_checkpoints": [
+        "Verify audio levels and use noise gate; aim for -6 to -3 dB peaks.",
+        "Capture separate high-res screen recording of code (60+ fps), and a 4K/1080p webcam take for cuts.",
+        "Film the cold open first so energy is highest; deliver the 15s hook verbatim from script.",
+        "Record B-roll: architecture diagram, vector DB console, latency charts.",
+        "Save raw assets with a descriptive filename (include primary keyword)."
+      ]
+    },
+    {
+      "step": "Edit",
+      "time_estimate": "4-8 hours",
+      "quality_checkpoints": [
+        "First 30s refinement: ensure hook delivers the promised value within 15s and preview appears by 30-60s.",
+        "Trim dead air; maintain 3-6 cuts per minute to keep visual interest.",
+        "Insert on-screen captions, code highlights, and animated callouts for 'but here's the crazy part...' every 2-3 minutes.",
+        "Add B-roll of results when showing output; show latency/cost numbers on-screen as visual proof.",
+        "Run a retention test: watch-through targeting 70%+ retention at 2-minute mark; if below, tighten/demo earlier.",
+        "Export at recommended YouTube settings and generate accurate auto-subtitles; create manual caption corrections."
+      ]
+    },
+    {
+      "step": "Thumbnail & Assets",
+      "time_estimate": "1-2 hours",
+      "quality_checkpoints": [
+        "Design high-contrast thumbnail with face + 2-word power phrase (e.g., 'RAG Fix' or 'No Hallucinations').",
+        "Include a visual hook (e.g., LangChain logo + Pinecone/FAISS icon) and readable text at 120px.",
+        "Create 2 variants for quick A/B (color/phrase swap) to test CTR for first 48 hours.",
+        "Prepare pinned comment text, 3-5 tags from trending_keywords, and short repo link image for cards."
+      ]
+    },
+    {
+      "step": "Upload & SEO",
+      "time_estimate": "30-60 minutes",
+      "quality_checkpoints": [
+        "Title starts with primary long-tail keyword (SEO insight): place 'Build RAG Agent Tutorial' at start if relevant.",
+        "Description first 25 words repeat 1-2 related long-tail keywords naturally; include repo link and timestamped chapters.",
+        "Add chapters, tags from trending_keywords, accurate closed captions file, and descriptive filename.",
+        "Set pinned comment with code snippet link + engagement prompt (question to audience).",
+        "Schedule premiere or immediate publish + add end screen pointing to next video on deployment or cost optimization."
+      ]
+    }
+  ],
+  "hook_outline": [
+    "Hook 1 — Rapid-build promise: \"Build a RAG agent in 5 minutes that answers any doc — I'll show the exact commands and the single config that fixed hallucinations.\" (Creates a time-bound promise and teases a troubleshooting fix within 15s.)",
+    "Hook 2 — Cost & latency shock: \"This one vector store cut my retrieval latency 10x and my bill by 70% — watch me swap it live and benchmark it in under 2 minutes.\" (Curiosity gap about which store + promises live benchmark data.)",
+    "Hook 3 — Hallucination fix reveal: \"If your RAG agent lies, this single retrieval-first prompt pattern stops 90% of hallucinations — I'll demo before/after outputs in the next clip.\" (Promises tangible improvement and shows comparison soon.)",
+    "Hook 4 — Production-ready demo tease: \"From PDFs to production: watch me wire LangChain, embeddings, and Pinecone step-by-step — by minute 6 you'll have deployable code.\" (Promises an end-to-end deliverable within a clear timepoint.)"
+  ],
+  "title_style_notes": [
+    "Start with the primary long-tail keyword (e.g., \"Build RAG Agent Tutorial\") to satisfy SEO and surface intent; follow with a power phrase: '— Production Guide', 'in 5 Minutes', or 'Fix Hallucinations'.",
+    "Use emotional triggers and power words: 'Stop', 'Fix', 'Insane', 'Production-Ready', '10x', 'Reduce Cost' to drive curiosity and urgency; avoid clickbait that breaks promise.",
+    "A/B test 2 variants in the first 48 hours: (A) Keyword-first: 'Build RAG Agent Tutorial — LangChain + Pinecone (Production)', (B) Benefit-first: 'Stop RAG Hallucinations — Build a Reliable Agent in 10 Mins'. Compare CTR and 30s retention.",
+    "Keep titles concise (50-70 chars ideally) but include year when relevant (e.g., '2025') if competing videos use current-year signals; track which variant improves watch-through rate."
+  ],
+  "content_structure": [
+    {
+      "section": "00:00-00:15 Hook (problem/promise)",
+      "goal": "Deliver a clear, specific promise and one surprising teaser (demo snippet or metric).",
+      "timing_notes": "First 15s must state value (e.g., working RAG agent in 5 minutes or fix hallucination). Target immediate curiosity spike.",
+      "retention_target": "90% of viewers still watching at 15s"
+    },
+    {
+      "section": "00:15-00:45 Context / Setup (why this matters)",
+      "goal": "Explain target outcome, audience prerequisites, and show the final demo result quickly (preview clip).",
+      "timing_notes": "Use 30-60s window to deliver the promised preview and a one-line architecture diagram; include primary keywords in spoken script and on-screen text.",
+      "retention_target": "85% at 45s"
+    },
+    {
+      "section": "00:45-03:00 Architecture & Tooling (promise: you'll know which parts to use)",
+      "goal": "Map the RAG pipeline: ingest → embeddings → vector DB choice (Faiss/Pinecone) → LangChain wiring. Call out tradeoffs and a recommended default for production.",
+      "timing_notes": "Keep this high-level and visual; drop a 'but here's the crazy part' hook at ~2:30 to transition to demo.",
+      "retention_target": "78% at 2:00"
+    },
+    {
+      "section": "03:00-07:30 Live Build & Demo (deliver on promise)",
+      "goal": "Step-by-step code: ingest sample docs, create embeddings, index to vector DB, connect retrieval to LLM with retrieval-first prompt. Show working outputs and metrics (latency, accuracy).",
+      "timing_notes": "Break into 2-3 micro-segments (ingest, embeddings, retrieval/test). Add visual progress bar and on-screen callouts every 2-3 minutes to re-engage.",
+      "retention_target": "70%+ throughout demo (target 70% at 6:00)"
+    },
+    {
+      "section": "07:30-10:00 Optimization, Debugging & Deploy notes (payoff)",
+      "goal": "Show quick fixes (prompt pattern to reduce hallucinations), vector store tuning tips, and a short deployment checklist (caching, batching, monitoring).",
+      "timing_notes": "Include a before/after comparison that reinforces the payoff; add an engagement hook ('Which vector store should I benchmark next? Comment below').",
+      "retention_target": "72% at 9:00"
+    },
+    {
+      "section": "Last 00:30 Recap + CTA (next video tease)",
+      "goal": "Summarize the 3 key takeaways, show result metrics, strong CTA (subscribe + link to repo + next video on cost optimization).",
+      "timing_notes": "End with a direct next-step: timestamped repo link in pinned comment, end screen to 'Deploy RAG Agent' video, and ask a single comment question.",
+      "retention_target": "Maintain final audience for CTA; aim to convert 10-20% of viewers to click-throughs to repo/next video."
+    }
+  ],
+  "engagement_tactics": [
+    "Mid-video micro-CTAs every 2-3 minutes: 'If this helped, drop a 👍 and comment 'RAG' for the repo — I'll pin the best questions.' Use these right after a demo/result line ('but here's the crazy part...').",
+    "Pinned comment + timestamped chapters: pin a comment with the GitHub repo link, exact commands, and a poll-like question ('Which vector store should I benchmark next? FAISS / Pinecone / Chroma — vote by replying').",
+    "Interactive code prompt: include a 60-second 'Try this now' exercise during the demo and ask viewers to paste one short result in comments (encourages retention and comments). Offer to highlight top results in next video.",
+    "End-screen and pinned next-video tease: explicitly tell viewers to watch the 'Deployment & Cost' video next; create a clickable end-screen card and mention it verbally in the last 15s.",
+    "Community signal boosters: ask a single focused comment question (e.g., 'What's your biggest RAG headache?') and reply to 20+ early comments in first hour to drive engagement and ranking."
+  ]
+}

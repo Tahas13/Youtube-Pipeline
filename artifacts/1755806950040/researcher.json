@@ -1,0 +1,50 @@
+{
+  "trending_keywords": [
+    "build RAG agent tutorial",
+    "RAG agent with LangChain",
+    "retrieval augmented generation tutorial",
+    "RAG agent step by step",
+    "RAG chatbot using vector DB",
+    "LangChain RAG agent 2025",
+    "faiss vector search RAG tutorial",
+    "pinecone RAG agent example",
+    "local LLM RAG agent",
+    "RAG with embeddings tutorial",
+    "production ready RAG agent",
+    "RAG agent architecture explained",
+    "RAG pipeline best practices",
+    "RAG agent prompt engineering",
+    "RAG agent deployment guide",
+    "RAG agent cost optimization",
+    "debug RAG agent errors",
+    "scale RAG agent production",
+    "hybrid retrieval generation pipeline",
+    "fine tune retrieval step"
+  ],
+  "competitor_titles": [
+    "I Built a RAG Agent in 10 Minutes Using LangChain (Insane Results!)",
+    "How to Build a Retrieval-Augmented Generation Agent — Full Tutorial",
+    "Deploy a RAG Chatbot with Pinecone + OpenAI — Production Guide",
+    "This RAG Agent Replaced Google for My Docs — Demo & Code",
+    "LangChain RAG Agent Tutorial: Vector DB + Embeddings Explained",
+    "From Zero to Production: Building a RAG Agent with FAISS",
+    "Stop Using Basic Chatbots — Build a RAG Agent That Actually Answers"
+  ],
+  "hook_ideas": [
+    "Build a RAG agent in 5 minutes and watch it answer any doc instantly — here's how.",
+    "See how this one architecture turns dusty PDFs into a searchable AI assistant.",
+    "Discover the single tweak that fixed my RAG agent hallucinations overnight.",
+    "Watch me connect LangChain, embeddings, and Pinecone live — no fluff, working demo.",
+    "Find out which vector store saves you 10x on latency and cost in production.",
+    "Fix your RAG agent's accuracy now with this simple retrieval-first prompt trick."
+  ],
+  "target_audience": "Mid-level software engineers, ML engineers, and indie AI makers (age 22-40) who have basic familiarity with LLMs and Python, are comfortable with packages like LangChain, and want to build, optimize, or deploy production-ready RAG agents for docs, customer support, or apps.",
+  "content_pillars": [
+    "End-to-end RAG build: ingest docs, create embeddings, choose vector DB (Faiss/Pinecone), wire retrieval to the LLM with LangChain — include code snippets",
+    "Prompting & chain orchestration: retrieval-first prompts, reranking, retrieval augmentation patterns and how to reduce hallucinations",
+    "Vector store selection & optimization: tradeoffs (Faiss vs Pinecone vs Chroma), indexing, shard strategy, and retrieval latency tuning",
+    "Deployment & cost/performance: containerization, batching, caching, parallel retrieval, and cost-saving strategies for production",
+    "Debugging & observability: metrics to track (recall/precision/latency), logs, test suites, and common failure modes with fixes"
+  ],
+  "seo_insights": "Put a primary long-tail keyword at the start of the title (e.g., \"Build RAG Agent Tutorial\") and repeat 2-3 related long-tail keywords naturally in the first 25 words of the description. Aim for a keyword density around 1–1.5% for each primary phrase (avoid stuffing), include keywords in chapters, tags, and the pinned comment, and add accurate closed captions and a descriptive filename to boost discoverability."
+}

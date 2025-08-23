@@ -1,0 +1,38 @@
+{
+  "production_checklist": [
+    "Script writing (3 hours): Outline hook, promise, step-by-step tutorial, include 3 engagement hooks at 2-min intervals, quality check for clarity and actionability",
+    "Recording (2 hours): Film intro hook in first 15 seconds, record step-by-step coding with screen share, ensure audio clarity, check lighting and framing",
+    "Editing (4 hours): Add intro/outro graphics, insert B-roll of code execution, include text callouts for key steps, time cuts to maintain pace, final quality review",
+    "Thumbnail design (1 hour): Create 3 A/B test options with high-contrast text, expressive face (if applicable), and 'FREE' or 'EASY' power words, select best performer",
+    "Upload optimization (30 min): Write title with primary keyword, craft description with secondary keywords, add timestamps, include end screen with next video tease",
+    "Quality gate: Preview entire video for retention hooks every 2-3 minutes and clear CTA",
+    "Publish and monitor: Schedule release, track initial retention analytics for first 48 hours"
+  ],
+  "hook_outline": [
+    "Start with code execution showing instant accurate answer: 'Watch this RAG agent solve in seconds what takes others minutes - I'll show you the secret in the next 15'",
+    "Problem intro: '90% of RAG implementations fail because of this one mistake... (hold up wrong code snippet) but here's how to fix it in 3 steps'",
+    "Value promise: 'By the end of this video, you'll have a production-ready RAG agent using entirely free tools - let me prove it in the next 60 seconds'",
+    "Comparison hook: 'I tested 5 frameworks and this one outperformed ChatGPT Enterprise while costing $0 - here's the shocking results'"
+  ],
+  "title_style_notes": [
+    "Use emotional power words: 'ULTIMATE', 'FREE', 'EASY', 'SHOCKING' combined with primary keyword 'RAG agent'",
+    "Include curiosity gap: 'The One Mistake 90% Make' or 'This $0 Setup Outperforms Enterprise'",
+    "A/B test: Question vs. statement formats ('Why 90% Fail?' vs. 'How to Build RAG That Doesn't Fail') and include numbers",
+    "Place primary keyword at front, add secondary keyword like 'LangChain' or 'OpenAI' if space allows"
+  ],
+  "content_structure": [
+    "00:00-00:15: Hook - Show working RAG agent with dramatic result and promise of free/build-along",
+    "00:15-00:45: Context - Why RAG matters, failure rates, and what we'll build (with visual architecture diagram)",
+    "00:45-08:00: Main tutorial - Step-by-step coding: setup environment, load data, create embeddings, build retrieval, integrate LLM (include progress checkpoints)",
+    "08:00-10:00: Optimization - Share 3 key techniques to improve accuracy and reduce latency (engagement hook at 8:30)",
+    "10:00-11:00: Deployment - Quick demo of containerization and scaling tips",
+    "11:00-11:30: Recap + CTA - Summarize key steps, direct to code repo, tease next video on advanced RAG"
+  ],
+  "engagement_tactics": [
+    "Use on-screen text callouts at 2-min marks: 'BUT HERE'S THE CRAZY PART...' before revealing optimization techniques",
+    "Add interactive poll: 'Which framework have you used? LangChain, LlamaIndex, or custom?' via YouTube poll feature",
+    "Direct CTA: 'Comment your biggest RAG challenge below and I'll respond personally' to boost comments",
+    "End-screen tease: 'Next video: I'll show how to add real-time web search to this agent - smash subscribe so you don't miss it'",
+    "Include downloadable code repository link in description with 'GitHub code in description' verbal cue at end"
+  ]
+}

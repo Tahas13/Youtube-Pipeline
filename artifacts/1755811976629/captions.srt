@@ -1,0 +1,19 @@
+[00:00:00.000 --> 00:00:04.000] [excited] Watch this - standard chatbot gets it completely wrong...
+[00:00:04.000 --> 00:00:08.000] But MY RAG agent nails the exact same question!
+[00:00:08.000 --> 00:00:12.000] [energetic] And I built this entire thing in just 10 minutes.
+[00:00:12.000 --> 00:00:16.000] Here's exactly how you can do it too.
+
+[00:02:30.000 --> 00:02:35.000] The secret sauce? This three-layer architecture.
+[00:02:35.000 --> 00:02:40.000] [pointing at screen] Retrieval... augmentation... generation.
+
+[00:05:30.000 --> 00:05:35.000] Now watch as I integrate the vector database - this is critical.
+[00:05:35.000 --> 00:05:40.000] [typing sounds] Just three lines of code with LangChain.
+
+[00:08:30.000 --> 00:08:35.000] [surprised] And here's the optimization that made it 3x faster!
+[00:08:35.000 --> 00:08:40.000] Most tutorials skip this completely.
+
+[00:09:30.000 --> 00:09:35.000] Deployment is live... and it's working perfectly!
+[00:09:35.000 --> 00:09:40.000] [music swells] Look at those accurate, context-aware responses.
+
+[00:10:00.000 --> 00:10:04.000] That's how you build a production-ready RAG agent.
+[00:10:04.000 --> 00:10:08.000] Download the code and start building yours today!

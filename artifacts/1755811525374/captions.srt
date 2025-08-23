@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:10,000
+[excited] RAG agent tutorial 2025 — I'll build a working RAG that answers any PDF.
+
+2
+00:00:10,000 --> 00:00:30,000
+Preview: final answer shown now so you know the payoff. Watch for the one config that breaks relevance.
+
+3
+00:00:30,000 --> 00:01:30,000
+Quick context: RAG = retrieval + LLM. It saves tokens and gives grounded answers by fetching relevant passages before the model generates.
+
+4
+00:03:00,000 --> 00:03:20,000
+[Sound Effect] Let's ingest the docs — chunking rule: 500–1,000 tokens with overlap 50–100 tokens for context.
+
+5
+00:03:20,000 --> 00:03:50,000
+Command: run embedding batch jobs (use async batching). This reduces API calls and improves throughput. I'll show exact snippet now.
+
+6
+00:03:50,000 --> 00:04:50,000
+Indexing: FAISS for local low-latency; Pinecone for managed scale. Tune dimension and metric (cosine vs dot). Now we run a test retrieval.
+
+7
+00:04:50,000 --> 00:05:30,000
+[emphasis] Retriever tuning: increase k, re-rank top results with cross-encoder or use simple semantic similarity + lexical signals.
+
+8
+00:09:00,000 --> 00:09:20,000
+Deployment notes: containerize the retriever service, autoscale the embedding workers, and instrument relevance/latency metrics.
+
+9
+00:09:20,000 --> 00:09:40,000
+Final test: deployed agent answers a fresh query with high relevance. [excited] That's the payoff — reproducible and deployable.
+
+10
+00:09:40,000 --> 00:10:00,000
+[Music] Recap & next steps: repo in pinned comment, like if this saved you tokens, and subscribe for the low-latency RAG deep dive.

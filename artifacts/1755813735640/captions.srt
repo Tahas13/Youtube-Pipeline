@@ -1,0 +1,31 @@
+00:00:00 --> 00:00:15
+[upbeat music fades]
+Alright, watch this...
+
+00:00:15 --> 00:00:30
+I just asked this RAG agent a complex question
+and it gave me the perfect answer in seconds
+
+00:00:30 --> 00:00:45
+[excited] And the craziest part?
+I built this ENTIRE thing using FREE tools
+
+00:02:00 --> 00:02:15
+Here's the one mistake that breaks
+90% of RAG implementations...
+
+00:05:00 --> 00:05:15
+Watch how we create embeddings
+that make semantic search lightning fast
+
+00:07:30 --> 00:07:45
+[surprised] This optimization technique
+just improved our accuracy by 300%!
+
+00:09:30 --> 00:09:45
+Deployment is actually simpler
+than you think - here's how
+
+00:10:00 --> 00:10:15
+GitHub code in description!
+[music fades in]

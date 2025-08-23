@@ -1,0 +1,162 @@
+{
+  "production_checklist": [
+    {
+      "step": "Script & Storyboard",
+      "time_estimate": "3-6 hours",
+      "quality_checkpoints": [
+        "Include a 15s cold open that states the specific promise (e.g., build a working RAG agent in X minutes / cut API cost by Y%).",
+        "Map timestamps to content_structure template (00:00-00:15 hook, 00:15-00:45 preview, main sections, last 30s CTA).",
+        "Insert 2-3 planned micro-engagement hooks every 2-3 minutes (phrasing & exact timestamp placeholders).",
+        "Add code snippets and commands for live demo segments; mark any parts to pre-render or show as B-roll."
+      ]
+    },
+    {
+      "step": "Pre-record Prep (assets + environment)",
+      "time_estimate": "1-2 hours",
+      "quality_checkpoints": [
+        "Verify local demo (ingest → embeddings → index → retriever → LLM response) runs end-to-end within expected time.",
+        "Prepare clipboard of key commands, repo links, and small test dataset (sanitized) for live run.",
+        "Capture screenshots/diagrams for Architecture & components pillar to cut to during explanation.",
+        "Confirm audio levels, camera framing, and code editor font size/readability for screen capture."
+      ]
+    },
+    {
+      "step": "Record (live coding + b-roll)",
+      "time_estimate": "1-3 hours recording per 10-20 min final video",
+      "quality_checkpoints": [
+        "Record hook cold open as first take; if using live build time-lapses, capture raw terminal output for authenticity.",
+        "Record modular segments (intro, demo step chunks, optimization tips, deployment notes) to ease editing.",
+        "Capture alternate takes of key lines that double as engagement hooks (e.g., 'but here's the crazy part...').",
+        "Record short 5-8s reaction/summary shots to use as jump-cuts for pacing."
+      ]
+    },
+    {
+      "step": "Edit (pacing + retention optimization)",
+      "time_estimate": "3-6 hours",
+      "quality_checkpoints": [
+        "First 45s must retain visual movement every 3-7s: cutaways to code, diagrams, fast overlays of results.",
+        "Insert preview of main payoff at 30-60s (show final agent answering a hard query) to deliver on hook promise.",
+        "Add engagement prompts and mid-video micro-CTAs at planned 2-3 minute intervals.",
+        "Run retention check: aim for energetic pacing to hit projected 70%+ retention; shorten or remove slow segments.",
+        "Subtitle & keyword-rich transcript aligned with SEO insights (mention primary long-tail keyword in first 150 chars of description and first 300 words)."
+      ]
+    },
+    {
+      "step": "Thumbnail & Title Drafting",
+      "time_estimate": "1-2 hours",
+      "quality_checkpoints": [
+        "Thumbnail: bold short claim + visual (e.g., terminal + 'RAG in 12m' or '80% API cost cut') with high-contrast color and face/emotion if presenter visible.",
+        "Create 2 thumbnail variants for A/B testing (one technical, one curiosity/emotional).",
+        "Draft 3 title variants that start with primary long-tail keyword (use research trending_keywords)."
+      ]
+    },
+    {
+      "step": "Upload & Metadata",
+      "time_estimate": "30-60 minutes",
+      "quality_checkpoints": [
+        "Title places primary keyword at start (e.g., 'RAG agent tutorial 2025 — build with LangChain + Pinecone').",
+        "Description: first 150 characters repeat the primary long-tail keyword; include 2–3 supporting long-tail keywords in first 300 words.",
+        "Add tags from trending_keywords, timestamps planned from content_structure, and pinned comment with quick links to repo and next video.",
+        "Schedule or publish; set end-screen pointing to 'next' RAG-related video and create 3-6 clip highlights for Shorts/promotion."
+      ]
+    }
+  ],
+  "hook_outline": [
+    {
+      "angle": "Speed + Proof (time-limited build)",
+      "cold_open_script": "RAG agent tutorial 2025: I’ll build a RAG agent that answers ANY PDF in 12 minutes — watch the final answer at :50 and the exact commands I run.",
+      "curiosity_gap": "How can a full pipeline run in minutes with high relevance?",
+      "promise_within_15s": "Show the final working answer preview and say you'll reveal the single config that caused most builds to fail."
+    },
+    {
+      "angle": "Cost-saving revelation",
+      "cold_open_script": "Stop wasting on fine-tuning — this RAG pipeline cuts API calls by ~80% while preserving accuracy. I’ll show the exact batching and caching trick by 00:45.",
+      "curiosity_gap": "Which optimization reduces calls so dramatically without hurting quality?",
+      "promise_within_15s": "Preview a side-by-side cost estimate and promise the code snippet that does batching + cache lookups."
+    },
+    {
+      "angle": "Failure-to-fix moment (high tension)",
+      "cold_open_script": "I almost broke a production RAG chain — here’s the one configuration that breaks relevance, and how to fix it in 90 seconds.",
+      "curiosity_gap": "What single misconfig causes catastrophic relevance drops?",
+      "promise_within_15s": "Show the broken vs fixed result quickly; promise to walk steps to fix and test later in the video."
+    },
+    {
+      "angle": "Enterprise-readiness preview",
+      "cold_open_script": "Want a production-ready RAG agent? In this walkthrough I cover ingestion, embeddings, FAISS/Pinecone setup, and the exact deployment steps I used.",
+      "curiosity_gap": "How do you make a proof-of-concept into a deployable, monitored agent?",
+      "promise_within_15s": "Flash the deployment dashboard and a 95% relevance demo answer; promise monitoring and security tips in the final section."
+    }
+  ],
+  "title_style_notes": [
+    "Start titles with primary long-tail keyword (e.g., \"RAG agent tutorial 2025\" or \"build RAG agent LangChain\") to satisfy SEO and match viewer intent.",
+    "Use emotional/power words and numeric promises: include power verbs (Build, Save, Fix), emotional triggers (Stop wasting, Breakthrough, Production-ready) and a clear metric or time (12 minutes, 80% fewer calls).",
+    "A/B test 2–3 variants: (A) Technical-first: \"RAG agent tutorial 2025 — LangChain + Pinecone walkthrough\", (B) Benefit-first: \"Cut LLM costs 80% — RAG agent tutorial (LangChain)\" and (C) Curiosity-first: \"The one config that breaks RAG agents — fix in 90s\". Track CTR and 30s retention.",
+    "Include a secondary keyword or platform in the title if space allows (e.g., \"... LangChain + FAISS\" or \"... with OpenAI embeddings\") to capture related searches."
+  ],
+  "content_structure": [
+    {
+      "section": "00:00-00:15 Hook (problem/promise)",
+      "timing_estimate": "15s",
+      "purpose": "Deliver a bold promise and preview payoff to arrest bounce (e.g., working agent answering a hard PDF query).",
+      "retention_note": "High energy + visual proof; include a one-line specific metric or time (e.g., '12 minutes', '80% fewer calls')."
+    },
+    {
+      "section": "00:15-00:45 Context / Setup (why this matters)",
+      "timing_estimate": "30s",
+      "purpose": "Briefly explain target audience problem (cost/accuracy/deployment) and show the demo outline; promise what viewers will be able to do after watching.",
+      "retention_note": "Deliver on the promise preview: show the final answer or dashboard snippet within this window to validate the hook."
+    },
+    {
+      "section": "00:45-04:30 Main Build — Architecture & Ingestion",
+      "timing_estimate": "3m 45s",
+      "purpose": "Explain architecture (vector DB, embeddings, retriever) and show ingestion + chunking; include exact commands/snippets.",
+      "retention_note": "Insert a 1-line engagement hook at ~2:30 ('but here's the crazy part that saves tokens...') and a short outcome example after ingestion."
+    },
+    {
+      "section": "04:30-08:30 Main Build — Retriever, Indexing & LLM Chain",
+      "timing_estimate": "4m",
+      "purpose": "Show index creation (FAISS/Pinecone), retriever tuning, and chaining with the LLM. Run a test query and show results.",
+      "retention_note": "Add micro-engagement: A/B result comparison (wrong vs tuned) and tease optimization tips coming next."
+    },
+    {
+      "section": "08:30-11:30 Optimization & Cost Hacks",
+      "timing_estimate": "3m",
+      "purpose": "Demonstrate batching, caching, chunk size rules, embedding strategies and cost comparison vs fine-tuning with numbers.",
+      "retention_note": "Use a clear table/overlay and include 'try this exact config' lines; place a 'subscribe for the repo' CTA near the end of this section."
+    },
+    {
+      "section": "11:30-13:30 Deployment, Monitoring & Security (payoff + next steps)",
+      "timing_estimate": "2m",
+      "purpose": "Show container/deploy snippet, monitoring metrics to track (relevance/latency), and a security checklist for private data.",
+      "retention_note": "Final demo: show the deployed agent answering a new live query; this is the payoff for the initial promise."
+    },
+    {
+      "section": "Last 30s Recap + CTA + Next Video Tease",
+      "timing_estimate": "00:30",
+      "purpose": "Recap the key steps, repeat the repo link and timestamp to the code, strong CTA to like/subscribe/comment, and tease the next deep-dive (e.g., 'next: low-latency RAG for real-time assistants').",
+      "retention_note": "Use an end-screen prompt and pinned comment; explicitly ask viewers which dataset you should demo next to trigger comments."
+    }
+  ],
+  "engagement_tactics": [
+    {
+      "tactic": "Time-locked payoff + pinned repo",
+      "details": "Show the final working answer within the first 60s as promised. Pin a comment and top description link to the repo and timestamp for the exact code snippet. CTA phrasing: 'Repo + exact commands → pinned comment. Try it now and tell me your dataset in the comments.'"
+    },
+    {
+      "tactic": "Micro-engagement hooks every 2-3 minutes",
+      "details": "Insert lines like 'but here's the crazy part…', 'see the surprising result at 08:50', or 'vote in the poll — FAISS or Pinecone?' to reset attention and prompt comments or poll interaction."
+    },
+    {
+      "tactic": "Specific CTAs tied to value",
+      "details": "Ask actionable CTAs: 'If this saved you API cost, hit like' or 'Comment your stack (Python/JS) to get a tailored snippet.' Add a short on-screen CTA during the optimization section linking to a cost calculator."
+    },
+    {
+      "tactic": "Interactive end-screen + next-video tease",
+      "details": "End with a clear next-step: 'Up next: low-latency RAG deployment — click the card.' Use an end-screen with 1 recommended video and 1 playlist. CTA phrasing: 'Watch the latency deep-dive next — card on screen.'"
+    },
+    {
+      "tactic": "A/B thumbnail/title experiment + community poll",
+      "details": "Run two thumbnail/title variants for the first 48 hours and use YouTube experiments. Launch a community poll asking which optimization viewers want next (cost vs latency vs security) to drive comments and guide follow-ups."
+    }
+  ]
+}

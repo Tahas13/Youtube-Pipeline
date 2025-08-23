@@ -1,0 +1,53 @@
+{
+  "trending_keywords": [
+    "build RAG agent from scratch tutorial",
+    "how to create RAG chatbot with LangChain",
+    "RAG implementation step by step guide",
+    "building retrieval augmented generation system",
+    "RAG agent development for beginners",
+    "LangChain RAG tutorial 2024",
+    "custom RAG pipeline implementation",
+    "vector database integration with RAG",
+    "open source RAG agent build",
+    "RAG system architecture explained",
+    "document retrieval AI agent tutorial",
+    "building semantic search with RAG",
+    "RAG agent deployment best practices",
+    "fine-tuning RAG models practical guide",
+    "end-to-end RAG implementation tutorial",
+    "RAG vs traditional chatbot comparison",
+    "optimizing RAG agent performance",
+    "multi-document RAG system build",
+    "RAG agent error handling techniques",
+    "real-time RAG implementation guide",
+    "RAG agent scaling strategies",
+    "custom knowledge base RAG setup",
+    "RAG agent monitoring and evaluation"
+  ],
+  "competitor_titles": [
+    "I Built a RAG Agent in 30 Minutes - Here's How It Works!",
+    "The Ultimate RAG Tutorial That Got 500K Views",
+    "This RAG Implementation Changed How I Build AI Apps Forever",
+    "Build Your First RAG Agent: Complete Step-by-Step Guide",
+    "Why Everyone's Wrong About RAG - My Implementation Secrets",
+    "From Zero to RAG Hero: Full Implementation Walkthrough",
+    "I Tested 5 RAG Architectures - Here's What Actually Works"
+  ],
+  "hook_ideas": [
+    "In just 15 minutes, I'll show you how to build a RAG agent that outperforms ChatGPT",
+    "Discover the one mistake 95% of developers make when building their first RAG system",
+    "I built this RAG agent that processes 1000 documents in seconds - here's exactly how",
+    "This single architecture decision made my RAG agent 3x faster than competitors",
+    "Watch me build a production-ready RAG agent from scratch - no prior experience needed",
+    "The secret sauce that makes my RAG implementation different from everyone else's"
+  ],
+  "target_audience": "AI developers and ML engineers with intermediate Python skills, aged 25-40, working on knowledge-intensive applications, seeking practical implementation guidance for production-ready RAG systems",
+  "content_pillars": [
+    "RAG Architecture Fundamentals and Component Selection",
+    "Vector Database Integration and Document Processing",
+    "Query Optimization and Performance Tuning",
+    "Deployment Strategies and Production Best Practices",
+    "Evaluation Metrics and Continuous Improvement"
+  ],
+  "seo_insights": "Target keyword density of 3-5% for primary terms like 'RAG agent build' and 'retrieval augmented generation implementation'. Place primary keywords in first 100 words of description, use secondary keywords like 'LangChain tutorial' and 'vector database integration' in middle paragraphs. Include exact match keywords in video tags and capitalize on trending searches around 'RAG 2024' and 'AI agent development'."
+}

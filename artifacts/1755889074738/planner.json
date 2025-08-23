@@ -1,0 +1,31 @@
+{
+  "production_checklist": [
+    "Script with hook, promise-payoff structure, and keyword integration (2-3 hours)",
+    "Record with high-quality audio/video, using screen share for code demos (1-2 hours)",
+    "Edit for pacing, add B-roll, graphics, and retention hooks every 2-3 minutes (3-4 hours)",
+    "Design thumbnail with bold text, contrasting colors, and curiosity gap (1 hour)",
+    "Upload with SEO-optimized title, description, tags, and end screen elements (30 minutes)"
+  ],
+  "hook_outline": [
+    "Show a failed RAG query vs. a successful one, then say: 'I made the same mistake most developers make - here's the 1-line fix that solved it.'",
+    "Display a stunning result from the built RAG agent and tease: 'Watch me build this from scratch in under 10 minutes using only open-source tools.'",
+    "Start with a common RAG pain point (e.g., 'slow responses') and promise: 'This implementation doubled my agent's accuracy overnight - here's how.'"
+  ],
+  "title_style_notes": [
+    "Include power words like 'ULTIMATE', 'Complete', or 'Secret' paired with emotional triggers like 'You Won't Believe' or 'Changed Forever'",
+    "Use brackets for specificity, e.g., '[Step-by-Step 2024]' or '[Full Code Walkthrough]', to boost CTR",
+    "A/B test titles with/without numbers (e.g., '5 Mistakes') and urgency phrases like 'Nobody Talks About'"
+  ],
+  "content_structure": [
+    "00:00-00:15: Hook - Problem demo (failed RAG) and promise of a quick, effective solution",
+    "00:15-00:45: Context - Why RAG matters, architecture overview, and tools used (LangChain, OpenAI, vector DB)",
+    "00:45-10:00: Main content - Step-by-step build: data loading, embedding, retrieval, and agent setup (with code)",
+    "10:00-12:00: Optimization - Common errors, performance tips, and scaling considerations",
+    "12:00-12:30: Recap + CTA - Key takeaways, encourage comments/questions, and tease next video on advanced RAG"
+  ],
+  "engagement_tactics": [
+    "Pose a question every 3 minutes (e.g., 'What would you improve here?') and ask viewers to comment their answers",
+    "Use on-screen polls (via YouTube Community tab) to let viewers vote on next tutorial topics",
+    "Include a mid-roll CTA to 'like if this helped you debug your RAG setup' and subscribe for more AI content"
+  ]
+}

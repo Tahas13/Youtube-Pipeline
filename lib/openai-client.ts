@@ -67,14 +67,14 @@ export async function generateWithGPT(systemPrompt: string, userPrompt: string, 
     console.log("[v0] User prompt length:", userPrompt.length)
 
     const response = await openai.chat.completions.create({
-      model: "gpt-5-mini",
+      model: "deepseek/deepseek-chat-v3.1",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt },
       ],
       response_format: schema ? { type: "json_object" } : undefined,
       temperature: 0.7,
-      max_tokens: 8000, // increased from 4000 to handle longer responses
+      max_tokens: 2000, // increased from 4000 to handle longer responses
     })
 
     console.log("[v0] OpenAI response received, choices count:", response.choices?.length || 0)
